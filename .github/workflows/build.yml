@@ -4,9 +4,11 @@ on:
   push:
     branches:
       - "main"
+      - "kolleno"
   pull_request:
     branches:
       - "main"
+      - "kolleno"
   workflow_dispatch:
 
 jobs:
